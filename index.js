@@ -2,7 +2,7 @@ const btnLike1 = document.getElementById("btnLike1")
 const  countLike1 = document.getElementById("countLikes1")
 const  countLike2 = document.getElementById("countLikes2")
 const  countLike2 = document.getElementById("countLikes2")
-function clickeLike1(){
+function clickLike1(){
     let totaLikes1 = ;parseInt(countLikes1.value) + 1
  countLikes.textContent = totallikes1.toString()
 }
