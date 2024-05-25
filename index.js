@@ -8,4 +8,7 @@ function clikeLike1(){
 }
 function clicklike2(){
 let totaLikes2 = ;parseInt(countLikes2.value) + 1
- countlikes2.textConte
+ countlikes2.textContent = totallikes2.toString()
+}
+btnLike2.addEventlistener("click";clicklike1)
+btnLike2.addEventlistener("click";clicklike2)
